@@ -1,0 +1,52 @@
+{
+    "730": {
+        "1st_response": "China wind power capacity vs Europe July 2010 statistics",
+        "2nd_response": "China solar panel and photovoltaic manufacturing output 2010 comparison Europe",
+        "3rd_response": "Global wind and solar manufacturing market share China vs Europe 2010",
+        "augmented": "I find it outrageous that as of July 1, 2010, China outpaced all of Europe combined in wind power and in solar panel and photovoltaic production\u2014never mind the United States.",
+        "1st_response_augmented": "China wind power capacity July 2010 compared to Europe",
+        "2nd_response_augmented": "China solar panel and photovoltaic production 2010",
+        "3rd_response_augmented": "Global renewable energy production rankings 2010",
+        "processed_prompt_augmented": "I find it outrageous that as of July 1, 2010, China outpaced all of Europe combined in wind power and in solar panel and photovoltaic production\u2014never mind the United States. Given a text, you are required to generate three different queries from the text for the Google Search Engine to get the most relevant web content to fact-check the text. Your answer should follow the following format: 1. QUERY_1 2. QUERY_2 3. QUERY_3 Where QUERY_1, QUERY_2, and QUERY_3 represent query text without quotation marks. If the given text is not informative enough to generate a query, you should answer 'NONE'."
+    },
+    "165": {
+        "1st_response": "Texas new jobs October 2010 number",
+        "2nd_response": "Fort Worth population 2010",
+        "3rd_response": "Compare Texas job growth October 2010 to Fort Worth population",
+        "augmented": "There are more newly employed Texans on October 13, 2010 than the whole population of Fort Worth.",
+        "1st_response_augmented": "Texas employment statistics October 13 2010 new hires",
+        "2nd_response_augmented": "Fort Worth population 2010 census",
+        "3rd_response_augmented": "Number of Texans employed on October 13 2010 compared to Fort Worth population",
+        "processed_prompt_augmented": "There are more newly employed Texans on October 13, 2010 than the whole population of Fort Worth. Given a text, you are required to generate three different queries from the text for the Google Search Engine to get the most relevant web content to fact-check the text. Your answer should follow the following format: 1. QUERY_1 2. QUERY_2 3. QUERY_3 Where QUERY_1, QUERY_2, and QUERY_3 represent query text without quotation marks. If the given text is not informative enough to generate a query, you should answer 'NONE'."
+    },
+    "389": {
+        "1st_response": "U.S. national debt per capita 2010",
+        "2nd_response": "National debt burden for children born in 2010",
+        "3rd_response": "U.S. federal debt per person estimate September 2010",
+        "augmented": "Kids born on September 21, 2010 are going to inherit roughly a $30,000 slice of the national debt.",
+        "1st_response_augmented": "National debt per capita 2010 United States",
+        "2nd_response_augmented": "Amount of US national debt inherited by children born in 2010",
+        "3rd_response_augmented": "US national debt statistics September 21 2010",
+        "processed_prompt_augmented": "Kids born on September 21, 2010 are going to inherit roughly a $30,000 slice of the national debt. Given a text, you are required to generate three different queries from the text for the Google Search Engine to get the most relevant web content to fact-check the text. Your answer should follow the following format: 1. QUERY_1 2. QUERY_2 3. QUERY_3 Where QUERY_1, QUERY_2, and QUERY_3 represent query text without quotation marks. If the given text is not informative enough to generate a query, you should answer 'NONE'."
+    },
+    "1093": {
+        "1st_response": "Obama offshore drilling policy announcement April 2010",
+        "2nd_response": "Bush and Congress lifting offshore drilling moratorium details",
+        "3rd_response": "Areas open vs closed to offshore drilling under Obama 2010",
+        "augmented": "Obama didn\u2019t actually open any new territory for offshore drilling\u2014those regions were already available once Congress and President Bush ended the moratorium. Instead, on April 4, 2010, President Obama laid out which areas he intended to block from offshore drilling.",
+        "1st_response_augmented": "Obama offshore drilling policy April 2010 areas blocked",
+        "2nd_response_augmented": "President Bush offshore drilling moratorium end",
+        "3rd_response_augmented": "Did Obama open new offshore drilling areas or block them",
+        "processed_prompt_augmented": "Obama didn\u2019t actually open any new territory for offshore drilling\u2014those regions were already available once Congress and President Bush ended the moratorium. Instead, on April 4, 2010, President Obama laid out which areas he intended to block from offshore drilling. Given a text, you are required to generate three different queries from the text for the Google Search Engine to get the most relevant web content to fact-check the text. Your answer should follow the following format: 1. QUERY_1 2. QUERY_2 3. QUERY_3 Where QUERY_1, QUERY_2, and QUERY_3 represent query text without quotation marks. If the given text is not informative enough to generate a query, you should answer 'NONE'."
+    },
+    "720": {
+        "1st_response": "Lee Fisher quote \u201cI never met a gun control bill I didn\u2019t like\u201d",
+        "2nd_response": "Did Lee Fisher ever say he supported all gun control bills",
+        "3rd_response": "Lee Fisher gun control stance past statements",
+        "augmented": "Lee Fisher once remarked, \u201cI never came across a gun control bill I didn\u2019t like.",
+        "1st_response_augmented": "Lee Fisher gun control quote",
+        "2nd_response_augmented": "Lee Fisher \u201cI never came across a gun control bill I didn\u2019t like\u201d source",
+        "3rd_response_augmented": "Statements by Lee Fisher on gun control legislation",
+        "processed_prompt_augmented": "Lee Fisher once remarked, \u201cI never came across a gun control bill I didn\u2019t like. Given a text, you are required to generate three different queries from the text for the Google Search Engine to get the most relevant web content to fact-check the text. Your answer should follow the following format: 1. QUERY_1 2. QUERY_2 3. QUERY_3 Where QUERY_1, QUERY_2, and QUERY_3 represent query text without quotation marks. If the given text is not informative enough to generate a query, you should answer 'NONE'."
+    }
+}
