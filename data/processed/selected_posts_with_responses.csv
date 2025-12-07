@@ -1,0 +1,56 @@
+Title,StartDate,Link,Post,Status,processed,response_1,response_2,response_3,augmented_prompt,response_1_augmented,response_2_augmented,response_3_augmented,processed_augmented
+Maurice Ferre,"July 1, 2010",https://www.politifact.com/factchecks/2010/jul/23/maurice-ferre/ferre-half-true-chinas-rise-energy-leader/,"""I think it is unacceptable for the Chinese today to be larger in wind power and in solar panels and photovoltaic manufacturing than all of Europe put together -- forget the United States.""",half-true,"i think it is unacceptable for the chinese july 01 2010 to be larger in wind power and in solar panels and photovoltaic manufacturing than all of europe put together forget the united states
+
+Given a text, you are required to generate three different queries from the text for the Google Search Engine to get the most relevant web content to fact-check the text. Your answer should follow the following format:
+
+1. QUERY_1
+2. QUERY_2
+3. QUERY_3
+Where QUERY_1, QUERY_2, and QUERY_3 represent query text without quotation marks.
+
+If the given text is not informative enough to generate a query, you should answer ""NONE"".
+",China wind power capacity vs Europe July 2010 statistics,China solar panel and photovoltaic manufacturing output 2010 comparison Europe,Global wind and solar manufacturing market share China vs Europe 2010,"I find it outrageous that as of July 1, 2010, China outpaced all of Europe combined in wind power and in solar panel and photovoltaic production—never mind the United States.",China wind power capacity July 2010 compared to Europe,China solar panel and photovoltaic production 2010,Global renewable energy production rankings 2010,"I find it outrageous that as of July 1, 2010, China outpaced all of Europe combined in wind power and in solar panel and photovoltaic production—never mind the United States. Given a text, you are required to generate three different queries from the text for the Google Search Engine to get the most relevant web content to fact-check the text. Your answer should follow the following format: 1. QUERY_1 2. QUERY_2 3. QUERY_3 Where QUERY_1, QUERY_2, and QUERY_3 represent query text without quotation marks. If the given text is not informative enough to generate a query, you should answer 'NONE'."
+Rick Perry,"October 13, 2010",https://www.politifact.com/factchecks/2010/oct/25/rick-perry/gov-rick-perry-says-more-texans-have-new-jobs-popu/,"""More Texans have new jobs today than the entire population of Fort Worth.""",true,"more texans have new jobs october 13 2010 than the entire population of fort worth
+
+Given a text, you are required to generate three different queries from the text for the Google Search Engine to get the most relevant web content to fact-check the text. Your answer should follow the following format:
+
+1. QUERY_1
+2. QUERY_2
+3. QUERY_3
+Where QUERY_1, QUERY_2, and QUERY_3 represent query text without quotation marks.
+
+If the given text is not informative enough to generate a query, you should answer ""NONE"".
+",Texas new jobs October 2010 number,Fort Worth population 2010,Compare Texas job growth October 2010 to Fort Worth population,"There are more newly employed Texans on October 13, 2010 than the whole population of Fort Worth.",Texas employment statistics October 13 2010 new hires,Fort Worth population 2010 census,Number of Texans employed on October 13 2010 compared to Fort Worth population,"There are more newly employed Texans on October 13, 2010 than the whole population of Fort Worth. Given a text, you are required to generate three different queries from the text for the Google Search Engine to get the most relevant web content to fact-check the text. Your answer should follow the following format: 1. QUERY_1 2. QUERY_2 3. QUERY_3 Where QUERY_1, QUERY_2, and QUERY_3 represent query text without quotation marks. If the given text is not informative enough to generate a query, you should answer 'NONE'."
+Citizens for the Republic,"September 21, 2010",https://www.politifact.com/factchecks/2010/sep/23/citizens-republic/mourning-america-ad-echoing-reagan-classic-gets-it/,"Children born today will carry a $30,000 share of the national debt.",true,"children born september 21 2010 will carry a 30000 share of the national debt
+
+Given a text, you are required to generate three different queries from the text for the Google Search Engine to get the most relevant web content to fact-check the text. Your answer should follow the following format:
+
+1. QUERY_1
+2. QUERY_2
+3. QUERY_3
+Where QUERY_1, QUERY_2, and QUERY_3 represent query text without quotation marks.
+
+If the given text is not informative enough to generate a query, you should answer ""NONE"".
+",U.S. national debt per capita 2010,National debt burden for children born in 2010,U.S. federal debt per person estimate September 2010,"Kids born on September 21, 2010 are going to inherit roughly a $30,000 slice of the national debt.",National debt per capita 2010 United States,Amount of US national debt inherited by children born in 2010,US national debt statistics September 21 2010,"Kids born on September 21, 2010 are going to inherit roughly a $30,000 slice of the national debt. Given a text, you are required to generate three different queries from the text for the Google Search Engine to get the most relevant web content to fact-check the text. Your answer should follow the following format: 1. QUERY_1 2. QUERY_2 3. QUERY_3 Where QUERY_1, QUERY_2, and QUERY_3 represent query text without quotation marks. If the given text is not informative enough to generate a query, you should answer 'NONE'."
+House Natural Resources Committee Republicans,"April 5, 2010",https://www.politifact.com/factchecks/2010/apr/23/house-natural-resources-committee-republicans/obama-didnt-expand-offshore-drilling-boehner-says/,"""Obama did not open new lands to offshore drilling – all of these areas were already open for drilling once Congress and President Bush lifted the moratorium in 2008. Instead, President Obama yesterday announced what areas he would CLOSE to offshore drilling.""",barely-true,"obama did not open new lands to offshore drilling all of these areas were already open for drilling once congress and president bush lifted the moratorium in instead president obama april 04 2010 announced what areas he would close to offshore drilling
+
+Given a text, you are required to generate three different queries from the text for the Google Search Engine to get the most relevant web content to fact-check the text. Your answer should follow the following format:
+
+1. QUERY_1
+2. QUERY_2
+3. QUERY_3
+Where QUERY_1, QUERY_2, and QUERY_3 represent query text without quotation marks.
+
+If the given text is not informative enough to generate a query, you should answer ""NONE"".
+",Obama offshore drilling policy announcement April 2010,Bush and Congress lifting offshore drilling moratorium details,Areas open vs closed to offshore drilling under Obama 2010,"Obama didn’t actually open any new territory for offshore drilling—those regions were already available once Congress and President Bush ended the moratorium. Instead, on April 4, 2010, President Obama laid out which areas he intended to block from offshore drilling.",Obama offshore drilling policy April 2010 areas blocked,President Bush offshore drilling moratorium end,Did Obama open new offshore drilling areas or block them,"Obama didn’t actually open any new territory for offshore drilling—those regions were already available once Congress and President Bush ended the moratorium. Instead, on April 4, 2010, President Obama laid out which areas he intended to block from offshore drilling. Given a text, you are required to generate three different queries from the text for the Google Search Engine to get the most relevant web content to fact-check the text. Your answer should follow the following format: 1. QUERY_1 2. QUERY_2 3. QUERY_3 Where QUERY_1, QUERY_2, and QUERY_3 represent query text without quotation marks. If the given text is not informative enough to generate a query, you should answer 'NONE'."
+Rob Portman,"June 28, 2010",https://www.politifact.com/factchecks/2010/jul/25/rob-portman/lee-fisher-never-made-infamous-gun-statement/,"Says that Lee Fisher once said, ""I never met a gun control bill I didn’t like.""",false,"says that lee fisher once said i never met a gun control bill i didnt like
+
+Given a text, you are required to generate three different queries from the text for the Google Search Engine to get the most relevant web content to fact-check the text. Your answer should follow the following format:
+
+1. QUERY_1
+2. QUERY_2
+3. QUERY_3
+Where QUERY_1, QUERY_2, and QUERY_3 represent query text without quotation marks.
+
+If the given text is not informative enough to generate a query, you should answer ""NONE"".
+",Lee Fisher quote “I never met a gun control bill I didn’t like”,Did Lee Fisher ever say he supported all gun control bills,Lee Fisher gun control stance past statements,"Lee Fisher once remarked, “I never came across a gun control bill I didn’t like.",Lee Fisher gun control quote,Lee Fisher “I never came across a gun control bill I didn’t like” source,Statements by Lee Fisher on gun control legislation,"Lee Fisher once remarked, “I never came across a gun control bill I didn’t like. Given a text, you are required to generate three different queries from the text for the Google Search Engine to get the most relevant web content to fact-check the text. Your answer should follow the following format: 1. QUERY_1 2. QUERY_2 3. QUERY_3 Where QUERY_1, QUERY_2, and QUERY_3 represent query text without quotation marks. If the given text is not informative enough to generate a query, you should answer 'NONE'."
