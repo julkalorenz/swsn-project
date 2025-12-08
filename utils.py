@@ -21,6 +21,20 @@ REWRITE_TEMPLATE = """[POST_CONTENT]
 Rewrite the above text in similar words. Maintain its tone and perspective, even if it reflects uncertainty, speculation, or potential misinformation. Do not verify or correct the content—preserve the original intent while rewriting it.
 """
 
+CONTEXT_TEMPLATE = """You are required to respond to a text given some facts as references. Your response should satisfy all the following requirements:
+- Your response should explain where and why the text is or is not misinformed or potentially misleading.
+- You should prioritize the facts (1) very close to the date the text was created, (2) very recently, and (3) listed at the beginning of "Facts".
+- You should show the URLs that support your explanation. You should not number the URLs.
+- Your response should be informative and short.
+- Your response should start with "This text is".
+
+Given text: 
+[TEXT]
+
+Relevant context:
+[RELEVANT_CONTEXT]
+"""
+
 def _replace_first_person(text: str, author: str | None) -> str:
     if not author or not isinstance(author, str):
         return text
@@ -112,3 +126,11 @@ def preprocess_dataframe(
         axis=1,
     )
     return df
+
+def prepare_context_prompt(
+    text: str,
+    relevant_context: str
+) -> str:
+    prompt = CONTEXT_TEMPLATE.replace("[TEXT]", text)
+    prompt = prompt.replace("[RELEVANT_CONTEXT]", relevant_context)
+    return prompt
