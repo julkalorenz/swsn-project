@@ -53,8 +53,26 @@ Next, we focused on the query generation step. We designed prompts to instruct t
 \caption{Query Generation Step}
 \end{figure}
 
+Following the query generation, we implemented the web scraping step to retrieve informtion form websites that were returned by the search engine using the generated queries. And using the extrected information, we combined the preprocessed content and the retrieved information into a new prompt to generate the corrective response.
+
+\begin{figure}[H]
+\centering
+\includegraphics[height=0.2\textheight]{images/post_prompt_verdict.png}
+\caption{Correction Generation Step}
+\end{figure}
 
 ## Outcomes and Conclusions
+
+We successfully recreated the MUSE methodology for correcting misinformation on social media using large language models. We implemented the full pipeline, including preprocessing, search query generation, web-based information retrieval, and corrective response generation. 
+
+We applied this method to different datasets from various domains, demonstrating its versatility. The generated corrective responses were evaluated manually based on their relevance and accuracy in addressing the misinformation present in the original content.
+
+The method's main advantages include its ability to gather information from multiple sources, providing a more comprehensive basis for corrections. Using multiple queries and sources allows for a broader perspeective on the topic being addressed. Additionally, using datasets containing different types of content, rather than solely tweets, showcases the method's adaptability to various contexts.
+
+However, there are a few limitations to consider. The main challenge is the requirement for API keys to access LLMs and search engines, which come at a cost. The trustworthiness of the scraped content is another concern, as the quality of the corrective responses heavily depends on the reliability of the sources retrieved, while the authors of the original paper addressed this by implementing a source credibility assessment step, there is still a risk of incorporating biased or inaccurate information. What is more, LLMs tend to produce overly long and nuanced answers, which usually does not match the typical tone and style of online discourse, as well as may discourage users from reading the entire response. Finally, the method is limited by the publicly available knowledge on the web, which may not always be up-to-date or comprehensive.
+
+To conclude, our project replicated the MUSE approach for misinformation correction using LLMs, demonstrating its effectiveness across different datasets. As misinformation spread is a viable concern in today's digital age and human fact-checking is unattainable at such scale, this method demonstrates that LLMs can be an effective supporting tool for combating misinformation on social media.
+
 
 ## References
 MUSE GitHub repository: https://github.com/Social-Futures-Lab/MUSE/tree/main
