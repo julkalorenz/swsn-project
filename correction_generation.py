@@ -44,10 +44,10 @@ if __name__ == "__main__":
     data = pd.read_csv('data/online_posts/Politifact_data.csv')[20000:22000].reset_index(drop=True)
     processed_df = preprocess_dataframe(data, 'Post', 'StartDate')
     rows = processed_df.iloc[[730, 165, 389, 1093, 720]].copy()
-    
+
     data = json.load(open('data/processed/selected_posts_with_responses.json', 'r'))
-    
-    
+
+
     for idx in data:
         context_prompt = prepare_context_prompt(
             text=clean_processed_prompt(data[idx]['processed']),
