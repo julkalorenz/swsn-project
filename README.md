@@ -6,11 +6,12 @@ This repository contains code used to conduct experiments for LLM assisted misin
 
 All of the Python dependencies are handled by [uv](https://docs.astral.sh/uv/).
 
-After cloning the repository run to install packages:
+After cloning the repository run:
 ```
 uv python install
 uv sync
 ```
+to install packages.
 
 Later to run a script (for example `script.py`) use:
 ```
@@ -25,6 +26,6 @@ uv run python script.py
 * `correction_generation.py`is used to prompt an LLM for misinformation correction based on gathered context
 
 * `data/fake_news/` `data/online_posts/` `data/tweets_correction/` are all datasets used to test the methodology. `data_prep.ipynb` shows how to process the data.
-* `data_analysis.ipynb` contains an analysis of the data
+* `data_analysis.ipynb` contains data analysis
 * `data/processed/` contains examples of processed data
-* `report/` contains source for files for the project report
+* `report/` contains source files for the project report
